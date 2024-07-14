@@ -1,0 +1,42 @@
+.telegram_contact {
+	.content {
+		margin-top: 20px;
+
+		form {
+			max-width: 400px;
+			width: 100%;
+			padding: 20px 0;
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+
+			input {
+				outline: none;
+				border: 1px solid black;
+				background: transparent;
+				padding: 5px;
+
+				&:focus {
+					border-color: rgb(0, 0, 80);
+				}
+			}
+
+			button {
+				outline: none;
+				border: none;
+				background: black;
+				color: white;
+				padding: 5px;
+				transition: 0.5s;
+
+				&:hover {
+					background: rgb(0, 0, 80);
+				}
+
+				&:active {
+					background: blue;
+				}
+			}
+		}
+	}
+}
